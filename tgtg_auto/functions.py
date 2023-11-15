@@ -8,11 +8,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
-
-# Function to ask for time input
-
-
 def ask_for_time():
 
     hour_question = [
