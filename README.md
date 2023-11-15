@@ -6,11 +6,12 @@ This script facilitates automated order placement at a specific time using the T
 
 ## Usage
 1. **Environment Setup**: Initialize required environment variables for payment card details (refer to `.env.example`).
-2. **Script Execution**: Run `main.py`. This is the starting point of the automation process.
-3. **Email Verification**: Enter your email address. You'll receive a verification link via email. Click the link to authenticate.
-4. **Product Selection**: The script fetches your favorited products from TGTG. Choose a product for automation.
-5. **Time Configuration**: Specify the exact time for the script to execute the purchase.
-6. **Order Automation**: The script will automatically place the order for the selected product at the set time.
+2. **Install requirements**: Install the requirements running `pip install -r requirements.txt`.
+3. **Script Execution**: Run `main.py`.
+4. **Email Verification**: Enter your email address. You'll receive a verification link. Click the link to authenticate the client.
+5. **Product Selection**: The script fetches your favorited products from TGTG. Choose the product you want to automate.
+6. **Time Configuration**: Specify the exact time for the script to execute the purchase.
+7. **Order Automation**: The script will automatically place the order for the selected product at the set time.
 
 ## Files
 - `main.py`: Entry point of the script. Calls `place_order_at_time` from `functions.py`.
