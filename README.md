@@ -31,4 +31,3 @@ This script facilitates automated order placement at a specific time using the T
 
 ## Notes
 - The script is designed for educational purposes and should be used responsibly.
-- Ensure that the `chromedriver` is compatible with your Chrome version and is correctly set in your PATH.
